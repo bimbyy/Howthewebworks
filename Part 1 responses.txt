@@ -1,0 +1,35 @@
+What is HTTP?
+HTTP is a protocol used to transfer data over the WWW. Usually a recipient requests initiates it, I.E a web browser and sends it to a server which will respond back with data
+
+What is a URL?
+Its a uniform address used to point access to a particular website
+
+What is DNS?
+Basically changes ip adresses into names so www.google.com would be a normal ip adress without the DNS
+
+What is a query string?
+Its basically extra info at the end of the url seperated by a ? and more so its decoded or used by the website you are visiting
+
+What are two HTTP verbs and how are they different?
+Get: Retrieves data from server
+Post: Submits data to a server
+
+What is an HTTP request?
+Message sent from client to server, contains information about what the client wants to do
+
+What is an HTTP response?
+Allows servers to respond to client requests and deliver their HTTP request
+
+What is an HTTP header?
+Contains meta data about the request or respnse to help the client or server proccess the request
+Examples: Cookies, Authorization
+
+What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?
+DNS Lookup
+Establish connection
+Send HTTP request
+Recieve HTTP response
+Render HTML
+Any other requests
+Close Connection
+
